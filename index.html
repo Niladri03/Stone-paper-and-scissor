@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="shortcut icon" href="images/logo.jpg">
+</head>
+<body>
+    <section class="game">
+        <div class="score">
+            <div class="player-score">
+                <h2>Player</h2>
+                <p class="player-score-value">0</p>
+            </div>
+            <div class="computer-score">
+                <h2>Computer</h2>
+                <p class="computer-score-value">0</p>
+            </div>
+        </div>
+
+        <div class="intro">
+            <h1>Rock Paper and Scissors</h1>
+            <button class="start-button">Let's Play</button>
+        </div>
+
+        <div class="match" style="display: none;">
+            <br><br>
+            <h2 class="winner">Choose an option</h2>
+            <br><br>
+            <div class="hands">
+                <img class="playerhand" src="images/rock.png" alt="Player Hand" />
+                <img class="computerhand" src="images/rock.png" alt="Computer Hand" style="transform: scaleX(-1);" />
+            </div>
+            <br><br><br>
+            <div class="options">
+              <button class="rock">Rock</button>
+              <button class="paper">Paper</button>
+              <button class="scissor">Scissor</button>
+          </div>
+        <center><button class="new-game-button" style="display: block; position: relative; margin-top: 20px; background-color:#961b25;">New Game</button></center>
+      </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+
+    <footer style="text-align: center; background-color: rgb(0, 0, 0); color: #fff; padding: 30px; position: fixed; bottom: 0; width: 100%;">
+      <p>
+          <center>Copyright &copy; 2023 - All rights reserved.
+          Developed by Niladri Khan.</center>
+      </p>
+    </footer>
+</body>
+</html>

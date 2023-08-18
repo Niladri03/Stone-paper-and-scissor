@@ -1,0 +1,109 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: grey;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+section {
+  width: 90%;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.score {
+  color: #444;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px; 
+  flex-wrap: wrap; 
+}
+.player-score,
+.computer-score {
+  margin-right: 50px; 
+}
+.score h2 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.score p {
+  font-size: 24px;
+  margin: 0;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 20px; 
+}
+
+.intro h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.intro button,
+.match button {
+  width: 100%;
+  max-width: 150px; 
+  height: 50px;
+  background-color: #3498db;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px; 
+}
+
+.match {
+  display: none;
+  text-align: center;
+}
+
+.match.fadeIn {
+  display: block;
+}
+
+.match .winner {
+  font-size: 32px;
+  color: #932c8e;
+  margin-bottom: 20px;
+}
+
+.final-winner {
+  color: #170e62;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .score {
+    justify-content: center;
+  }
+
+  .score h2,
+  .score p {
+    font-size: 20px;
+  }
+
+  .intro button,
+  .match button {
+    font-size: 18px;
+  }
+}
