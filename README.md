@@ -1,0 +1,1 @@
+Experience the classic game of Stone, Paper, Scissors brought to life with HTML, CSS, and JavaScript. Test your luck and strategy against the computer's choices as you select your move. The interactive interface and dynamic animations make for an engaging gaming experience. Will you conquer the virtual opponent and emerge victorious? Play now and find out!
